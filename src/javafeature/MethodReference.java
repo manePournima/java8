@@ -10,7 +10,7 @@ public class MethodReference {
 	}
 	
 	public static void main(String[] args) {
-		MethodReference mr = new MethodReference();
+		MethodReference methodreferencer = new MethodReference();
 		List<String>student = Arrays.asList("ppp","sss","vvv","ggg");
 		student.forEach(MethodReference::print);
  				}
