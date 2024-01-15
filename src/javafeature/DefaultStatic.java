@@ -16,7 +16,7 @@ public class DefaultStatic implements A, B {
 	public void add() {
 		int a = 10;
 		int b = 20;
-		System.out.println(" Abstract Addition method-" + (a + b));
+		System.out.println("Abstract Addition method-" + (a + b));
 
 	}
 
