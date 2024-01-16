@@ -4,13 +4,13 @@ public class DeepCopy {
 
 	public static void main(String[] args) {
 
-		BCA obj = new BCA();
+		Java obj = new Java();
 		obj.i = 222;
 		obj.j = 999;
 
 		// changes in one entity are not reflected in the other entities
 
-		BCA obj1 = new BCA();
+		Java obj1 = new Java();
 		obj1.i = obj.i;
 		obj1.j = obj.j;
 
@@ -24,13 +24,13 @@ public class DeepCopy {
 
 }
 
-class BCA {
+class Java {
 	int i;
 	int j;
 
 	@Override
 	public String toString() {
-		return "BCA [i=" + i + ", j=" + j + "]";
+		return "Java [i=" + i + ", j=" + j + "]";
 	}
 
 }
