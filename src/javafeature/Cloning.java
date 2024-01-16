@@ -7,7 +7,7 @@ public class Cloning {
 
 		Test1 obj1 = (Test1) obj.clone();
 
-		obj1.i = 9;
+		obj1.i = 10;
 		System.out.println("clonable");
 		System.out.println(obj);
 		System.out.println(obj1);

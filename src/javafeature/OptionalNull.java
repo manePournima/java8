@@ -8,8 +8,8 @@ public class OptionalNull {
 
 		String [] words = new String [10];
 		Optional<String> checkNull = Optional.ofNullable(words[5]);
-	//	if(checkNull.isPresent())
-		if(checkNull.isEmpty())	
+		if(checkNull.isPresent())
+		//if(checkNull.isEmpty())	
 		{
 			String word = words[5].toLowerCase();
 			System.out.println(word);
